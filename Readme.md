@@ -1,4 +1,4 @@
-1. Mục tiêu: Cài đặt framework ExpressJS và khơi chạy dự án Hello World đầu tiên
+1. Cài đặt framework ExpressJS và khơi chạy dự án Hello World đầu tiên
 
 * ExpressJS là gì ? là 1 framework của NodeJS.
 
@@ -25,5 +25,23 @@
         })
     - Ở thanh tìm kiếm của trình duyệt, nhập: http://localhost:3000/
 
-
 Hoàn thành mục tiêu 1. 
+
+
+2. Cài đặt và sử dụng thư viện Nodemon
+
+* Nodemon là gì? 
+   - Nodemon là một công cụ giúp phát triển các ứng dụng dựa trên Node.js bằng cách TỰ ĐỘNG KHƠI ĐỘNG LẠI ứng dụng nút khi phát hiện thấy các thay đổi tệp trong thư mục. (nguồn: https://www.npmjs.com/package/nodemon).
+
+* Cách cài đăt:
+    - Câu lệnh: 
+        + npm i nodemon --save-dev (cài trong môi trường phát triển của 1  dự án cố định).
+        + npm install -g nodemon (cài ở môi trường global)
+    - Chỉnh sửa lại file package.js:
+        + Ở key "scripts" thêm:  "start": "nodemon --inspect index.js",
+
+* Chạy lại dự án:
+    _ Câu lệnh: npm start 
+        (Khi chưa cài nodemon, với mỗi lần thay đổi trong dự án phải gõ dòng lệnh node index.js để chạy lại...rất phiền phức! Sau khi cài, chỉ cần lưu lại và refresh lại trình duyệt là xong...rất nhanh và tiện lợi. Ngoài ra, Nodemon còn cung cấp 1 môi trường Devtool riêng biệt giúp debug và "soi" code rõ hơn)
+
+Hoàn thành mục tiêu 2.
