@@ -62,3 +62,31 @@ Hoàn thành mục tiêu 2.
 Refresh lại trình duyệt và xem sự thay đổi của log trong cửa sổ console.
 
 Hoàn thành mục tiêu 3.
+
+
+4. Template engine (handlebars)
+
+* Handlebars là gì ?
+    - Handlebars là một thư viện javascrip rất mạnh mẽ hỗ trợ bạn có thể binding data vào một templete để hiển thị ra website. (nguồn: https://www.npmjs.com/package/express-handlebars)
+
+* Cách cài đặt:
+    - Câu lệnh: npm install express-handlebars
+
+* Tổ chức khung dự án và cấu hình lại (có thể tổ chức theo cách khác):
+    - Tổ chức lại khung sự án:
+        .
+        |_____src
+                |_____index.js
+                |_____resources
+                              |_____views
+                                        |_____home.hbs
+                                        |_____news.hbs
+                                        |_____layouts
+                                                    |______main.hbs
+                                        |_____partials
+                                                    |______header.hbs
+                                                    |______footer.hds
+
+(xem commit code để biết rõ sự thay đổi của các file)
+
+Hoàn thành mục tiêu 4.
