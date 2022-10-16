@@ -90,3 +90,15 @@ Hoàn thành mục tiêu 3.
 (xem commit code để biết rõ sự thay đổi của các file)
 
 Hoàn thành mục tiêu 4.
+
+
+5. Static file & SASS
+
+* Static file: là các file tĩnh (vd: file img, css,...), nếu không được cấu hình trình duyệt sẽ không chạy được các file này. Vì vậy, cần cấu hình để trình duyệt hiểu và chạy được. 
+    - Ví dụ muốn chạy được file ảnh ở src/public/logo.jpg, ta thêm câu lệnh sau vào file index:
+        app.use(express.static(path.join(__dirname, 'public')));
+
+* Sử dụng SASS:
+    - Cài đặt sass: npm i sass --save-dev 
+
+Hoàn thành mục tiêu 5.

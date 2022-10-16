@@ -8,6 +8,9 @@ const port = 3000;
 // HTTP logger
 app.use(morgan('combined'));
 
+// Câu hình để chạy được file ảnh
+app.use(express.static(path.join(__dirname, 'public')));
+
 // Template engine
 app.engine('hbs', handlebars({
     extname: '.hbs'
