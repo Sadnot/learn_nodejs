@@ -35,7 +35,7 @@ Hoàn thành mục tiêu 1.
 
 * Cách cài đăt:
     - Câu lệnh: 
-        + npm i nodemon --save-dev (cài trong môi trường phát triển của 1  dự án cố định).
+        + npm i nodemon --save-dev (cài trong môi trường phát triển của 1 dự án cố định).
         + npm install -g nodemon (cài ở môi trường global)
     - Chỉnh sửa lại file package.js:
         + Ở key "scripts" thêm:  "start": "nodemon --inspect index.js",
@@ -45,3 +45,20 @@ Hoàn thành mục tiêu 1.
         (Khi chưa cài nodemon, với mỗi lần thay đổi trong dự án phải gõ dòng lệnh node index.js để chạy lại...rất phiền phức! Sau khi cài, chỉ cần lưu lại và refresh lại trình duyệt là xong...rất nhanh và tiện lợi. Ngoài ra, Nodemon còn cung cấp 1 môi trường Devtool riêng biệt giúp debug và "soi" code rõ hơn)
 
 Hoàn thành mục tiêu 2.
+
+
+3. Cài đặt và sử dụng Morgan
+
+* Morgan là gì ?
+    - morgan là một phần mềm trung gian cho phép ta dễ dàng ghi lại các yêu cầu, lỗi và hơn thế nữa vào console. Nó dễ sử dụng, nhưng vẫn mạnh mẽ và có thể tùy chỉnh.
+
+* Cách cài đặt:
+    - Câu lệnh: npm i morgan --save-dev (nguồn: https://www.npmjs.com/package/morgan)
+    - Ở file index.js thêm vào: 
+
+        const morgan = require('morgan')
+        app.use(morgan('combined'))
+
+Refresh lại trình duyệt và xem sự thay đổi của log trong cửa sổ console.
+
+Hoàn thành mục tiêu 3.
