@@ -122,3 +122,13 @@ Hoàn thành mục tiêu 5.
     - Coppy thử 1 đoạn code bất kì trong trang chủ của Bootrap và quan sát kết quả.
 
 Hoàn thành mục tiêu 6.
+
+
+7. Xóa thư mục public/css
+
+* Để giảm thời gian push code lên github và tiện lợi hơn trong việc teamwwork.
+
+* Các bước thực hiện:
+    - Xóa thư mục public/css.
+    - Thêm dòng lệnh sau trong file .gitignore: src/public/css
+    - Push code lên github và quan sát sự thay đổi.
