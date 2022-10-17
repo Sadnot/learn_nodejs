@@ -132,3 +132,41 @@ Hoàn thành mục tiêu 6.
     - Xóa thư mục public/css.
     - Thêm dòng lệnh sau trong file .gitignore: src/public/css
     - Push code lên github và quan sát sự thay đổi.
+
+Hoàn thanh mục tiêu 7.
+
+
+8. Basic routing
+    - Routing đề cập đến việc xác định cách ứng dụng phản hồi yêu cầu của người dùng đến một điểm cuối cụ thể, đó là URI (hoặc đường dẫn) và phương thức yêu cầu HTTP cụ thể (GET, POST, v.v.).
+    - Mỗi route có thể có một hoặc nhiều hàm xử lý, được thực thi khi tuyến được khớp.
+    - Định nghĩa tuyến có cấu trúc sau:
+        app.METHOD(PATH, HANDLER)
+        Trong đó: 
+                + app là 1 instance của express
+                + METHOD là 1 phương thức HTTP, được viết bằng chữ thường.
+                + PATH là tuyến đường dẫn đến máy chủ.
+                + HANDLER là 1 hàm thực thi khi route(tuyến đường) khớp.
+    - Ví dụ: 
+        app.get('/', (req, res) => {
+            res.send('Hello World!')
+        })
+
+        app.post('/', (req, res) => {
+            res.send('Got a POST request')
+        })
+
+        app.put('/user', (req, res) => {
+            res.send('Got a PUT request at /user')
+        })
+
+        app.delete('/user', (req, res) => {
+            res.send('Got a DELETE request at /user')
+        })
+
+Hoàn thành mục tiêu 8.
+
+
+9. Query parameters
+    - Là 1 khái niệm giúp chúng ta truyền dữ liệu trên url.
+
+Hoàn thành mục tiêu 9.
