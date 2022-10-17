@@ -176,3 +176,9 @@ Hoàn thành mục tiêu 9.
     - Là các hành vi mặc định của form, trong phạm vi bài này chúng ta sẽ tìm hiểu hành vi submit của form.
 
 Hoàn thành mục tiêu 10.
+
+
+11. POST method
+    - Là 1 phương thức khi được sử dụng khi client muốn gửi dữ liệu lên server (ngược lại với GET).
+
+Hoàn hành mục tiêu 11.

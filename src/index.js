@@ -5,6 +5,12 @@ const handlebars = require('express-handlebars');
 const app = express();
 const port = 3000;
 
+// Midleware xử lý việc gửi dữ liệu lên server 
+app.use(express.urlencoded({
+    extended: true
+}));
+app.use(express.json());
+
 // HTTP logger
 app.use(morgan('combined'));
 
@@ -30,5 +36,9 @@ app.get('/search', (req, res) => {
     res.render('search');
 })
 
+app.post('/search', (req, res) => {
+    console.log(req.body);
+    res.send('');
+})
 
 app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`));
