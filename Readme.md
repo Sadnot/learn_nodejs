@@ -170,3 +170,9 @@ Hoàn thành mục tiêu 8.
     - Là 1 khái niệm giúp chúng ta truyền dữ liệu trên url.
 
 Hoàn thành mục tiêu 9.
+
+
+10. Form default behavior
+    - Là các hành vi mặc định của form, trong phạm vi bài này chúng ta sẽ tìm hiểu hành vi submit của form.
+
+Hoàn thành mục tiêu 10.
