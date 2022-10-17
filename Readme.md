@@ -101,4 +101,24 @@ Hoàn thành mục tiêu 4.
 * Sử dụng SASS:
     - Cài đặt sass: npm i sass --save-dev 
 
+(chạy npm run watch mỗi khi start dự án để lắng nghe sự thay đổi của các file tĩnh)
+
 Hoàn thành mục tiêu 5.
+
+
+6. Use Bootrap
+
+* Tìm hiểu Bootrap: Bootstrap là một framework bao gồm các HTML, CSS và JavaScript template dùng để phát triển website chuẩn responsive.
+
+* Cách cài đặt và sử dụng: 
+    - Đặt thẻ <link> với href là link CDN trong thẻ <head> (trước thẻ <link> của CSS tự custom)
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    - Đặt 2 thẻ <script> sau trước thẻ </body>: 
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+
+    (nguồn: https://getbootstrap.com/docs/5.2/getting-started/introduction/)
+
+    - Coppy thử 1 đoạn code bất kì trong trang chủ của Bootrap và quan sát kết quả.
+
+Hoàn thành mục tiêu 6.
